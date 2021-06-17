@@ -8,6 +8,12 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #titolo {
     position: fixed;
     top: 0;
@@ -24,11 +30,11 @@ body {
 }
 
 #titolo nav li:first-child{
-    margin-right: 150px;
+    margin-right: 300px;
 }
 
 #titolo nav li:last-child{
-    margin-left: 150px;
+    margin-left: 300px;
     color: black;
 }
 
@@ -54,7 +60,7 @@ nav img {
 }
 
 ul {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -115,7 +121,48 @@ ul {
 }
 /*fine prima sezione  */
 
+.info {
+    position: relative;
+    height: 600px;
+}
 
+.box {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.image {
+    float: left;
+    width: 40%;
+    margin-left: 15%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image-text {
+    padding-top: 30px;
+    float: left;
+    width: 20%;
+    text-align: left;
+    margin-left: 90px;
+}
+
+.image-text h2 {
+    font-size: 40px;
+    text-align: 8px;
+}
+
+.image-text p {
+    line-height: 20px;
+    padding-top: 40px;
+
+}
+
+main {
+    text-align: center;
+}
 /*fine main */
 
 
