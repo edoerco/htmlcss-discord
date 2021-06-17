@@ -121,9 +121,10 @@ ul {
 }
 /*fine prima sezione  */
 
-.info {
+.info,
+.info2 {
     position: relative;
-    height: 600px;
+    height: 700px;
 }
 
 .box {
@@ -137,7 +138,14 @@ ul {
     margin-left: 15%;
 }
 
-.image img {
+.image2 {
+    float: right;
+    width: 40%;
+    margin-right: 15%;
+}
+
+.image img,
+.image2 img {
     width: 100%;
 }
 
@@ -149,20 +157,28 @@ ul {
     margin-left: 90px;
 }
 
-.image-text h2 {
+.image-text2 {
+    padding-top: 30px;
+    float: right;
+    width: 20%;
+    text-align: left;
+    margin-right: 90px;
+}
+
+.image-text h2,
+.image-text2 h2 {
     font-size: 40px;
     text-align: 8px;
 }
 
-.image-text p {
-    line-height: 20px;
+.image-text p,
+.image-text2 p {
+    line-height: 25px;
     padding-top: 40px;
 
 }
+ 
 
-main {
-    text-align: center;
-}
 /*fine main */
 
 
