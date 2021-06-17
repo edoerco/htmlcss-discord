@@ -9,22 +9,43 @@ body {
 }
 
 #titolo {
+    position: fixed;
+    top: 0;
     height: 80px;
     width: 100%;
-    background-color: #3161e0;
+    z-index: 999;
     text-align: center;
 }
 
 #titolo nav li {
-    margin: 0 5px;
+    margin: 0 15px;
     display: inline-block;
     line-height: 80px;
+}
+
+#titolo nav li:first-child{
+    margin-right: 150px;
+}
+
+#titolo nav li:last-child{
+    margin-left: 150px;
+    color: black;
 }
 
 #titolo nav li a {
     padding: 0 5px;
     text-decoration: none;
     color: white;
+}
+
+#titolo nav li:last-child a {
+    color: black;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+
 }
 
 nav img {
@@ -35,8 +56,68 @@ nav img {
 ul {
     width: 60%;
     margin: 0 auto;
-    background-color: green;
 }
+
+/* main */
+
+/* prima sezione  */
+.blue {
+    position: relative;
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    margin: 0 auto;
+}
+.box h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+}
+
+.box p {
+    line-height: 35px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.bottoni {
+    margin-bottom: 40px;
+}
+
+.bottoni a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bottoni span:first-child a {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.bottoni span:last-child a {
+    background-color: #23272a;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+/*fine prima sezione  */
+
+
+/*fine main */
+
 
 
 
