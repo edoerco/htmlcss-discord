@@ -227,13 +227,83 @@ ul {
     color: white;
     font-size: 20px;
 }
-
-
-
-
- 
-
 /*fine main */
+
+/* footer */
+
+footer {
+    height: 800px;
+    background-color: #23272a;
+}
+
+.container-sup{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    border-bottom: 1px solid #7289da;
+}
+
+.col-grande {
+    width: 20%;
+    float: left;
+}
+
+.col-grande h2 {
+    font-size: 40px;
+    color: #7289da;
+    padding-bottom: 30px;
+}
+
+.lingua {
+    padding-bottom: 30px;
+    color: white;
+}
+
+.lingua img {
+    vertical-align: middle;
+    width: 30px;
+}
+
+.lingua span {
+    vertical-align: middle;
+}
+
+.icone i {
+    font-size: 20px;
+    color: white;
+    padding-right: 30px;
+}
+
+.col {
+    width: 15%;
+    float: left;
+    margin: 0 auto;
+}
+
+.col ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    vertical-align: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.col ul{
+    list-style-type: none;
+    color: #7289da;
+    margin-top: 12px;
+    margin-left: 90%;
+}
+
+.col ul li:first-child {
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.col ul li:last-child {
+    padding-bottom: 20px;
+}
 
 
 
